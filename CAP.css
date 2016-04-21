@@ -1,0 +1,741 @@
+/*Main Page*/
+
+.bio-container {
+    position: relative;
+}
+
+
+
+/*==== Carousel
+======================*/
+
+.ecu-carousel-caption {
+	font-weight: 600;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	margin: 0 0 0 12px;
+}
+
+.hhp-wrap{
+    position: absolute;
+    z-index: 9999;
+    left: 30px;
+    top: 10px;
+    font-size: 13px
+}
+
+.hhp-wrap a {
+    color: #fff;
+}
+
+.hhp-wrap a:hover {
+    color: #fff;
+}
+
+.hhp-wrap a:visited {
+    color: #fff;
+}
+
+.ecu-carousel-caption {
+    bottom: 30px !important;
+}
+
+.ecu-carousel-caption {
+    background: none !important;
+}
+
+.ecuCarouselControls {
+    position: absolute;
+    bottom: 8px;
+    width: 40% !important;
+    margin: 0 0 0 20px !important;
+}
+
+.ecuCarouselPlayPause {
+    width: 50px !important;
+	margin-left: 4px !important;
+}
+
+.ecuIndicators {
+    width: 150px !important;
+    margin: 0;
+    padding: 0;
+	margin-left: -10px !important;
+	padding-top: 2px !important;
+}
+
+.ecuCarouselControls .ecuCarouselPlayPause a{
+    margin: 0;
+    padding: 0;
+}
+
+.ecuIndicators .ecu-carousel-indicators {
+    text-align: left !important;
+	padding-left: 2px;
+	top: 7px !important;
+	left: 42px !important;
+}
+
+.carousel-indicators {
+	left: 18px !important;
+}
+
+.ecu-carousel-indicators li {
+    background: #9d9d9d !important;
+	margin: 0 2px 0 2px;
+	float: left !important;
+}
+
+.ecu-carousel-indicators .active {
+    background: #fff !important;
+	float: left !important;
+}
+
+.ecu-play, .ecu-pause {
+    display: block;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 10px;
+    height: 15px;
+    padding-left: 10px;
+    float: left;
+}
+
+.ecu-play {
+    background: url("http://www.ecu.edu/cs-hhp/biofeedback/customcf/images/play.png") top center no-repeat;
+}
+
+.ecu-pause {
+    background: url("http://www.ecu.edu/cs-hhp/biofeedback/customcf/images/pause.png") top center no-repeat;
+}
+
+.CAP-logo {
+    background: url('http://www.ecu.edu/cs-hhp/biofeedback/customcf/images/biofeedback-logo.png') top center no-repeat;
+    width: 300px;
+    height: 125px;
+    text-indent: -9999px;
+    z-index: 9999;
+    position: absolute;
+    left: 15px;
+    top: 35px;
+    background-size: 100%;
+}
+
+.CAP-logo a {
+	width: 100%;
+	height: 100%;
+}
+
+.Phone-Banners{ 
+	display: none !important;
+}
+
+.carousel-control {
+    opacity: 1 !important;
+    border: none !important;
+    top: 85% !important;
+    text-indent: -9999px;
+    margin: 0 !important;
+    width: 36px !important;
+    height: 36px !important;
+    border-radius: 0px !important;
+}
+
+.carousel-control.right {
+    left: auto !important;
+    background: url("http://www.ecu.edu/cs-hhp/biofeedback/customcf/images/rightcircle.png") top center no-repeat !important;
+    right: 16px !important;
+}
+
+.carousel-control.left {
+    background: url("http://www.ecu.edu/cs-hhp/biofeedback/customcf/images/leftcircle.png") top center no-repeat !important;
+    left: 89% !important;
+}
+
+
+
+/* ====== Nav
+======================*/
+
+.navbar-inner {
+    min-height: 32px !important;
+}
+
+.csecu-navbar .csecu-nav > li > a:hover, .csecu-navbar .csecu-nav > li > a:focus {
+    background-color: #fec923 !important;
+}
+
+
+.bio-nav {
+    background: #fec923;
+    height: 32px;
+}
+
+.nav-contact {
+    background: #000;
+    height: 32px;
+}
+
+.nav-contact p {
+    text-align: center;
+	font-weight: bold;
+}
+
+.nav-contact p a{
+    line-height: 32px;
+    text-decoration: none;
+    color: #fec923;
+    display: block;
+}
+
+.bio-nav nav {
+    margin: 0;
+    padding: 0;
+}
+
+.bio-nav .csecu-nav li a{
+    border-right: 1px solid #000;
+	font-weight: bold;
+}
+
+.bio-nav ul li a {
+    display: block;
+    margin: 0;
+    padding: 0 25px !important;
+    line-height: 32px;
+    height: 32px !important;
+}
+
+.bio-nav .csecu-nav li:last-child a {
+    border: none;
+}
+
+.bio-nav ul li a .caret {
+    margin: 13px 0 0 !important;
+}
+
+.bio-nav ul li .dropdown-menu {
+    background: #FFF1D9;
+}
+
+
+.bio-nav ul li .dropdown-menu li:last-child {
+    border:none;
+}
+
+.bio-nav ul li .dropdown-menu li a {
+    border: none;
+	font-weight: normal;
+    text-align: center;
+}
+
+.bio-nav ul li .dropdown-menu li a:hover {
+    background: #fec923;
+}
+
+
+.mobile-contact {
+    	/*background: #000;
+    	height: 32px;
+		margin-top: -10px;
+		text-align: center;
+		font-weight: bold;
+		line-height: 32px;
+    	text-decoration: none;
+    	color: #fec923;
+    	display: block;*/
+		display: none !important;
+}
+
+/*===== Sidebar
+===================*/
+
+.bio-sidebar {
+   	background: #FFF1D9;
+	overflow: hidden;
+    margin:0;
+    padding: 10px 0 20px 0;
+}
+
+/* Home */
+#CS_Element_116559_114572 {
+	min-height: 850px;
+}
+
+/* Education */
+#CS_Element_116627_114572 {
+	min-height: 1050px;
+}
+
+/* Research */
+#CS_Element_116671_114572 {
+ 	min-height: 1400px;
+}
+
+/* Certification */
+#CS_Element_116663_114572 {
+	min-height: 1650px;
+}
+
+/* Service */
+#CS_Element_116706_114572 {
+	min-height: 2350px;
+}
+
+/* Staff */
+#CS_Element_116728_114572 {
+	min-height: 2500px;
+}
+
+/* News */
+#CS_Element_116977_114572 {
+	min-height: 1250px;
+}
+
+/* FAQ */
+#CS_Element_116758_114572 {
+	min-height: 1050px;
+}
+
+/* Directions */
+#CS_Element_116773_114572 {
+	min-height: 950px;
+}
+
+
+.sidebar-info p {
+    text-align: center;
+}
+
+.sidebar-social {
+    float: left;
+    margin: 30px auto 20px auto;
+    width: 100%;
+}
+
+.sidebar-social ul {
+    margin: 0 auto;
+    padding: 0;
+    width: 200px;
+}
+
+.sidebar-social ul li {
+    float: left;
+    display: inline;
+}
+
+.sidebar-social ul li a {
+    display: block;
+    text-indent: -9999px;
+    width: 36px;
+    height: 36px;
+    margin: 0 5px;
+}
+
+.sidebar-social ul li:first-child a {
+    background: url("http://www.ecu.edu/cs-hhp/biofeedback/customcf/images/Facebook-36px.png") no-repeat top center;
+}
+
+.sidebar-social ul li:nth-child(2) a {
+    background: url("http://www.ecu.edu/cs-hhp/biofeedback/customcf/images/Twitter-36px.png") no-repeat top center;
+}
+.sidebar-social ul li:nth-child(3) a {
+    background: url("http://www.ecu.edu/cs-hhp/biofeedback/customcf/images/LinkedIn-36px.png") no-repeat top center;
+}
+
+.sidebar-social li:last-child a {
+    background: url("http://www.ecu.edu/cs-hhp/biofeedback/customcf/images/instagram.png")no-repeat top center;
+}
+
+.quick-links {
+    margin: 0;
+    padding: 0;
+}
+
+.quick-links li {
+    list-style-type: none;
+    text-align: center;
+    font-size: 13px;
+}
+
+.quick-links li a {
+    text-decoration: underline;
+}
+/*
+.warriors {
+    text-indent: -9999px;
+    margin: 10px 0;
+}
+
+.warriors a{
+    width: 138px;
+    height: 63px;
+    background-color: #592a8a;
+    margin: 10px auto 20px auto;
+    padding: 0;
+    display: block;
+}
+*/
+
+.donate {
+    width: 200px;
+    margin: 10px auto;
+}
+
+/*===== Content
+===================*/
+
+.bio-content {
+    margin: 0;
+	padding: 0;
+	background: none;
+}
+
+.body-content {
+	margin: 0 10px 0 23px !important;
+	padding: 0 0 50px 0;
+}
+
+.ekg {
+    height: 36px;
+    background: url("http://www.ecu.edu/cs-hhp/biofeedback/customcf/images/ekg.png") bottom left no-repeat;
+    margin: 35px 0 10px 0;
+	font-size: 17px;
+}
+
+
+#cs_control_117113, #cs_control_117116, #cs_control_117119, #cs_control_117196 {
+	margin-top: 20px;
+}
+
+#cs_control_117126, #cs_control_117125, #cs_control_117124, #cs_control_117122, #cs_control_117195 {
+	margin-top: 6px;
+}
+
+
+
+.map-container, .video-container, .photo-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 35px;
+    height: 0;
+    overflow: hidden;
+}
+
+.map-container iframe, .video-container iframe, .photo-container div {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/*===== Media Queries
+==================================*/
+
+@media only screen and (max-width: 767px) {
+    .CAP-logo, .hhp-wrap {
+        width: 180px;
+    }
+	
+	
+	.hhp-wrap {
+		font-size: 7.5px;
+		left: 15px;
+	}
+	
+	.Phone-Banners{ 
+	display: block !important;
+	}
+	
+	.bio-nav .csecu-nav li a{
+    border-right: none;
+}
+
+.bio-carousel {
+	display: none !important;
+}
+
+
+	.ecu-carousel-caption {
+		font-size: 12px;
+		color: #592a8a !important;
+		margin: -12px 0 10px 0;		
+		padding: 11px !important;
+		text-indent: 9px;
+	}
+	
+	.carousel-indicators {
+	left: 0px !important;
+}
+
+	
+	.ecuCarouselControls {
+    position: absolute;
+    bottom: 6px;
+}
+	
+	.mobile-contact {
+    	background: #000;
+    	height: 32px;
+		margin-top: -10px;
+		text-align: center;
+		font-weight: bold;
+		line-height: 32px;
+    	text-decoration: none;
+    	color: #fec923;
+    	display: block !important;
+	}
+
+	
+	.nav-contact {
+   		display: none;
+	}
+
+	.nav-contact p {
+    	display: none;
+
+	}
+
+	.nav-contact p a{
+   		display: none;
+	}
+	
+
+    .bio-content {
+        padding: 10px 0 0;
+		background: none;
+	}
+    
+    .csecu-navbar .csecu-navbar-inner {
+        width: 95%;
+	}
+	
+	.csecu-navbar {
+		float: left;
+		width: 100%;
+	}
+	
+	.ecu-carousel-indicators {
+		padding-left: 16px !important;
+		padding-top: 10px;
+	}
+	
+    
+     .ecu-carousel-indicators li {
+        background: #cdaeed !important;
+	}
+
+    .ecu-carousel-indicators .active {
+        background: #592a8a !important;
+	}
+	
+	.ekg {
+    	height: 21px;
+		background: none;
+		border-bottom: 1px solid #000;
+		margin: 15px 0 20px 0;
+	}
+	
+	.long-header {
+		height: 41px;
+	}
+	
+#CS_Element_116559_114572, #CS_Element_116627_114572, #CS_Element_116671_114572, #CS_Element_116663_114572, #CS_Element_116706_114572, #CS_Element_116728_114572, #CS_Element_116977_114572, #CS_Element_116758_114572, #CS_Element_116773_114572 {
+	min-height: 550px;
+	}
+	
+	.CAP-logo a {
+	width: 100%;
+	height: 80px;
+}
+
+	.CAP-logo {
+		height: 80px;
+		left: 8px;
+		top: 33px;
+	}
+}
+
+@media screen and (max-width: 979px) and (min-width: 768px) {
+    .csecu-navbar .csecu-navbar-inner a.btn-navbar {
+        margin-top: 1px;
+    }
+    
+    .csecu-navbar .csecu-navbar-inner {
+        float: left;
+        width: 95%;
+    }
+    
+    .csecu-navbar .csecu-navbar-inner .csecu-nav {
+        width: 100%;
+    }
+    
+    .csecu-navbar .csecu-navbar-inner .csecu-nav li {
+        width: 100%;
+    }
+    
+    .csecu-navbar .csecu-navbar-inner .csecu-nav li a{
+        border: none;
+    }
+  
+  	.ekg {
+		height: 32px;
+		background-size: 100%;
+	}
+	
+	.Phone-Banners{ 
+	display: none !important;
+	}
+	
+	
+	.bio-sidebar {
+		font-size: 12px;
+		line-height: 18px;
+	}
+	
+	.bio-container {
+		background: url('http://www.ecu.edu/cs-hhp/biofeedback/images/CAP-background.jpg') repeat-y top right; 
+		background-size: 660px !important;
+	}
+	
+
+/* Home */
+CS_Element_116559_114572 {
+	min-height: 750px;
+}
+	
+/* Education */
+#CS_Element_116627_114572 {
+	min-height: 1200px;
+}
+
+/* Research */
+#CS_Element_116671_114572 {
+ 	min-height: 1600px;
+}
+
+/* Certification */
+#CS_Element_116663_114572 {
+	min-height: 1900px;
+}
+
+/* Service */
+#CS_Element_116706_114572 {
+	min-height: 2400px;
+}
+
+/* Staff */
+#CS_Element_116728_114572 {
+	min-height: 2550px;
+}
+
+/* News */
+#CS_Element_116977_114572 {
+	min-height: 1150px;
+}
+
+/* FAQ */
+#CS_Element_116758_114572 {
+	min-height: 1250px;
+}
+
+/* Directions */
+#CS_Element_116773_114572 {
+	min-height: 975px;
+}
+	
+	 .CAP-logo, .hhp-wrap {
+        width: 250px;
+    }
+	
+	.hhp-wrap {
+		font-size: 11px;
+		left: 27px;
+	}
+	
+	.ecu-carousel-caption {
+		font-size: 14px;
+	   	bottom: 21px !important;
+	}
+	
+	.CAP-logo a {
+	width: 100%;
+	height: 100px;
+}
+
+.carousel-control.left {
+    left: 86% !important;
+	top: 79% !important;
+
+}
+
+.carousel-control.right {
+    right: 14px !important;
+	top: 79% !important;
+}
+
+.ecuCarouselControls {
+	bottom: 5px !important;
+}
+
+/*.ecuIndicators {
+	display: none !important;
+}
+
+.ecuCarouselPlayPause {
+	display: none !important;
+}*/
+
+/*==========================================================
+ bootstrap overrides for donation button
+==========================================================*/
+.btn-donate { 
+  color: #FEC923; 
+  background-color: #592A8A; 
+  border-color: #130269; 
+} 
+ 
+.btn-donate:hover, 
+.btn-donate:focus, 
+.btn-donate:active, 
+.btn-donate.active, 
+.open .dropdown-toggle.btn-donate { 
+  color: #FEC923; 
+  background-color: #592A8A; 
+  border-color: #130269; 
+} 
+ 
+.btn-donate:active, 
+.btn-donate.active, 
+.open .dropdown-toggle.btn-donate { 
+  background-image: none; 
+} 
+ 
+.btn-donate.disabled, 
+.btn-donate[disabled], 
+fieldset[disabled] .btn-donate, 
+.btn-donate.disabled:hover, 
+.btn-donate[disabled]:hover, 
+fieldset[disabled] .btn-donate:hover, 
+.btn-donate.disabled:focus, 
+.btn-donate[disabled]:focus, 
+fieldset[disabled] .btn-donate:focus, 
+.btn-donate.disabled:active, 
+.btn-donate[disabled]:active, 
+fieldset[disabled] .btn-donate:active, 
+.btn-donate.disabled.active, 
+.btn-donate[disabled].active, 
+fieldset[disabled] .btn-donate.active { 
+  background-color: #592A8A; 
+  border-color: #130269; 
+} 
+ 
+.btn-donate .badge { 
+  color: #592A8A; 
+  background-color: #FEC923; 
+}
+
+}
