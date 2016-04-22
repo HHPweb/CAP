@@ -336,29 +336,29 @@ h4, h3 {
 		margin-top: -30px !important;
 		left: 8px;
     }
-	
+
 	.hhp-wrap {
 		display: none !important;
 	}
-	
-	
+
+
 	.ecuCarouselPlayPause {
 		float: left !important;
 		width: 50% !important;
 	}
-	
-	
+
+
 	.short-banner {
 		/*margin-top: 20px;*/
 		width: 100%;
 	}
-	
+
 	.bio-nav .csecu-nav li a{
     border-right: none;
 }
 
 
-	
+
 	.mobile-contact {
     	background: #000;
     	height: 32px;
@@ -371,7 +371,7 @@ h4, h3 {
     	display: block !important;
 	}
 
-	
+
 	.nav-contact {
    		display: none;
 	}
@@ -384,34 +384,34 @@ h4, h3 {
 	.nav-contact p a{
    		display: none;
 	}
-	
+
 
     .bio-content {
         padding: 10px 0 0;
 		background: none;
 	}
-    
+
     .csecu-navbar .csecu-navbar-inner {
         width: 95%;
 	}
-	
+
 	.csecu-navbar {
 		float: left;
 		width: 100%;
 	}
-	
-	
+
+
 		.ekg {
     	height: 21px;
 		background: none;
 		border-bottom: 1px solid #000;
 		margin: 15px 0 20px 0;
 	}
-	
+
 	.long-header {
 		height: 41px;
 	}
-	
+
 	#CS_Element_116559_114572, #CS_Element_116627_114572, #CS_Element_116671_114572, #CS_Element_116663_114572, #CS_Element_116706_114572, #CS_Element_116728_114572, #CS_Element_116977_114572, #CS_Element_116758_114572, #CS_Element_116773_114572 {
 	min-height: 550px;
 	}
@@ -432,45 +432,45 @@ h4, h3 {
     .csecu-navbar .csecu-navbar-inner a.btn-navbar {
         margin-top: 1px;
     }
-    
+
     .csecu-navbar .csecu-navbar-inner {
         float: left;
         width: 95%;
     }
-    
+
     .csecu-navbar .csecu-navbar-inner .csecu-nav {
         width: 100%;
     }
-    
+
     .csecu-navbar .csecu-navbar-inner .csecu-nav li {
         width: 100%;
     }
-    
+
     .csecu-navbar .csecu-navbar-inner .csecu-nav li a{
         border: none;
     }
-  
+
   	.ekg {
 		height: 32px;
 		background-size: 100%;
 	}
-	
+
 	.bio-sidebar {
 		font-size: 12px;
 		line-height: 18px;
 		}
-		
+
 	.bio-container {
-		background: url('http://www.ecu.edu/cs-hhp/biofeedback/images/CAP-background.jpg') repeat-y top right; 
+		background: url('http://www.ecu.edu/cs-hhp/biofeedback/images/CAP-background.jpg') repeat-y top right;
 		background-size: 660px !important;
 	}
-	
+
 
 /* Home */
 #CS_Element_116559_114572 {
 	min-height: 750px;
 }
-	
+
 /* Education */
 #CS_Element_116627_114572 {
 	min-height: 1200px;
@@ -510,25 +510,68 @@ h4, h3 {
 #CS_Element_116773_114572 {
 	min-height: 975px;
 }
-	
+
 	.ecuCarouselPlayPause {
 		float: left;
 		width: 50%;
 	}
-	
+
 	 .CAP-logo, .hhp-wrap {
         width: 250px;
     }
-	
+
 	.hhp-wrap {
 		font-size: 11px;
 		left: 27px;
 	}
-	
-	
-	
+
+
+
 	.CAP-logo a {
 	width: 100%;
 	height: 100px;
 }
+}
+
+/*===================================== Chuck Style =====================================*/
+
+.cap_staff img:first-child {
+  max-width: 150px;
+  float: left;
+  padding: 5px;
+}
+
+.cap_staff p {
+  clear: both;
+}
+
+.staff_nfo {
+  max-width: 400px;
+  float: left;
+}
+
+.deg {
+  padding: 15px 0;
+}
+
+.ekg_head {
+  background: url("http://www.ecu.edu/cs-hhp/biofeedback/customcf/images/ekg.png") bottom left no-repeat;
+  padding-bottom: 5px;
+  font-size: 1.143em;
+}
+
+a {
+  font-weight: bold;
+}
+
+.noBullet {
+	list-style-type: none;
+}
+.noBullet > li {
+	line-height: 2;
+}
+
+.btm_line {
+  border-bottom: solid 1px;
+  margin-bottom: 25px;
 }
