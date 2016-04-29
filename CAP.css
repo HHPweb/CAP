@@ -4,7 +4,42 @@
     position: relative;
 }
 
+/*======================================================
+  4/29/16 version of the donation button
+=======================================================*/
+.donate_btn {
+  background: #592a8a;
+  background-image: -webkit-linear-gradient(top, #592a8a, #952bb8);
+  background-image: -moz-linear-gradient(top, #592a8a, #952bb8);
+  background-image: -ms-linear-gradient(top, #592a8a, #952bb8);
+  background-image: -o-linear-gradient(top, #592a8a, #952bb8);
+  background-image: linear-gradient(to bottom, #592a8a, #952bb8);
+  -webkit-border-radius: 13;
+  -moz-border-radius: 13;
+  border-radius: 13px;
+  font-family: Arial;
+  color: #ffffff !important;
+  font-size: 16px;
+  padding: 10px;
+  text-decoration: none;
+  margin: 5px;
+  text-align: center;
+}
 
+.donate_btn:hover {
+  background: #592a8a;
+  background-image: -webkit-linear-gradient(top, #592a8a, #cb34d9);
+  background-image: -moz-linear-gradient(top, #592a8a, #cb34d9);
+  background-image: -ms-linear-gradient(top, #592a8a, #cb34d9);
+  background-image: -o-linear-gradient(top, #592a8a, #cb34d9);
+  background-image: linear-gradient(to bottom, #592a8a, #cb34d9);
+  text-decoration: none;
+}
+
+.donate_btn a {
+  color: #ffffff !important;
+  text-decoration: none !important;
+}
 
 /*==== Carousel
 ======================*/
@@ -126,7 +161,7 @@
 	height: 100%;
 }
 
-.Phone-Banners{ 
+.Phone-Banners{
 	display: none !important;
 }
 
@@ -439,17 +474,17 @@
     .CAP-logo, .hhp-wrap {
         width: 180px;
     }
-	
-	
+
+
 	.hhp-wrap {
 		font-size: 7.5px;
 		left: 15px;
 	}
-	
-	.Phone-Banners{ 
+
+	.Phone-Banners{
 	display: block !important;
 	}
-	
+
 	.bio-nav .csecu-nav li a{
     border-right: none;
 }
@@ -462,21 +497,21 @@
 	.ecu-carousel-caption {
 		font-size: 12px;
 		color: #592a8a !important;
-		margin: -12px 0 10px 0;		
+		margin: -12px 0 10px 0;
 		padding: 11px !important;
 		text-indent: 9px;
 	}
-	
+
 	.carousel-indicators {
 	left: 0px !important;
 }
 
-	
+
 	.ecuCarouselControls {
     position: absolute;
     bottom: 6px;
 }
-	
+
 	.mobile-contact {
     	background: #000;
     	height: 32px;
@@ -489,7 +524,7 @@
     	display: block !important;
 	}
 
-	
+
 	.nav-contact {
    		display: none;
 	}
@@ -502,28 +537,28 @@
 	.nav-contact p a{
    		display: none;
 	}
-	
+
 
     .bio-content {
         padding: 10px 0 0;
 		background: none;
 	}
-    
+
     .csecu-navbar .csecu-navbar-inner {
         width: 95%;
 	}
-	
+
 	.csecu-navbar {
 		float: left;
 		width: 100%;
 	}
-	
+
 	.ecu-carousel-indicators {
 		padding-left: 16px !important;
 		padding-top: 10px;
 	}
-	
-    
+
+
      .ecu-carousel-indicators li {
         background: #cdaeed !important;
 	}
@@ -531,22 +566,22 @@
     .ecu-carousel-indicators .active {
         background: #592a8a !important;
 	}
-	
+
 	.ekg {
     	height: 21px;
 		background: none;
 		border-bottom: 1px solid #000;
 		margin: 15px 0 20px 0;
 	}
-	
+
 	.long-header {
 		height: 41px;
 	}
-	
+
 #CS_Element_116559_114572, #CS_Element_116627_114572, #CS_Element_116671_114572, #CS_Element_116663_114572, #CS_Element_116706_114572, #CS_Element_116728_114572, #CS_Element_116977_114572, #CS_Element_116758_114572, #CS_Element_116773_114572 {
 	min-height: 550px;
 	}
-	
+
 	.CAP-logo a {
 	width: 100%;
 	height: 80px;
@@ -563,50 +598,50 @@
     .csecu-navbar .csecu-navbar-inner a.btn-navbar {
         margin-top: 1px;
     }
-    
+
     .csecu-navbar .csecu-navbar-inner {
         float: left;
         width: 95%;
     }
-    
+
     .csecu-navbar .csecu-navbar-inner .csecu-nav {
         width: 100%;
     }
-    
+
     .csecu-navbar .csecu-navbar-inner .csecu-nav li {
         width: 100%;
     }
-    
+
     .csecu-navbar .csecu-navbar-inner .csecu-nav li a{
         border: none;
     }
-  
+
   	.ekg {
 		height: 32px;
 		background-size: 100%;
 	}
-	
-	.Phone-Banners{ 
+
+	.Phone-Banners{
 	display: none !important;
 	}
-	
-	
+
+
 	.bio-sidebar {
 		font-size: 12px;
 		line-height: 18px;
 	}
-	
+
 	.bio-container {
-		background: url('http://www.ecu.edu/cs-hhp/biofeedback/images/CAP-background.jpg') repeat-y top right; 
+		background: url('http://www.ecu.edu/cs-hhp/biofeedback/images/CAP-background.jpg') repeat-y top right;
 		background-size: 660px !important;
 	}
-	
+
 
 /* Home */
 CS_Element_116559_114572 {
 	min-height: 750px;
 }
-	
+
 /* Education */
 #CS_Element_116627_114572 {
 	min-height: 1200px;
@@ -646,21 +681,21 @@ CS_Element_116559_114572 {
 #CS_Element_116773_114572 {
 	min-height: 975px;
 }
-	
+
 	 .CAP-logo, .hhp-wrap {
         width: 250px;
     }
-	
+
 	.hhp-wrap {
 		font-size: 11px;
 		left: 27px;
 	}
-	
+
 	.ecu-carousel-caption {
 		font-size: 14px;
 	   	bottom: 21px !important;
 	}
-	
+
 	.CAP-logo a {
 	width: 100%;
 	height: 100px;
@@ -691,51 +726,52 @@ CS_Element_116559_114572 {
 
 /*==========================================================
  bootstrap overrides for donation button
-==========================================================*/
-.btn-donate { 
-  color: #FEC923; 
-  background-color: #592A8A; 
-  border-color: #130269; 
-} 
- 
-.btn-donate:hover, 
-.btn-donate:focus, 
-.btn-donate:active, 
-.btn-donate.active, 
-.open .dropdown-toggle.btn-donate { 
-  color: #FEC923; 
-  background-color: #592A8A; 
-  border-color: #130269; 
-} 
- 
-.btn-donate:active, 
-.btn-donate.active, 
-.open .dropdown-toggle.btn-donate { 
-  background-image: none; 
-} 
- 
-.btn-donate.disabled, 
-.btn-donate[disabled], 
-fieldset[disabled] .btn-donate, 
-.btn-donate.disabled:hover, 
-.btn-donate[disabled]:hover, 
-fieldset[disabled] .btn-donate:hover, 
-.btn-donate.disabled:focus, 
-.btn-donate[disabled]:focus, 
-fieldset[disabled] .btn-donate:focus, 
-.btn-donate.disabled:active, 
-.btn-donate[disabled]:active, 
-fieldset[disabled] .btn-donate:active, 
-.btn-donate.disabled.active, 
-.btn-donate[disabled].active, 
-fieldset[disabled] .btn-donate.active { 
-  background-color: #592A8A; 
-  border-color: #130269; 
-} 
- 
-.btn-donate .badge { 
-  color: #592A8A; 
-  background-color: #FEC923; 
+==========================================================
+.btn-donate {
+  color: #FEC923;
+  background-color: #592A8A;
+  border-color: #130269;
+}
+
+.btn-donate:hover,
+.btn-donate:focus,
+.btn-donate:active,
+.btn-donate.active,
+.open .dropdown-toggle.btn-donate {
+  color: #FEC923;
+  background-color: #592A8A;
+  border-color: #130269;
+}
+
+.btn-donate:active,
+.btn-donate.active,
+.open .dropdown-toggle.btn-donate {
+  background-image: none;
+}
+
+.btn-donate.disabled,
+.btn-donate[disabled],
+fieldset[disabled] .btn-donate,
+.btn-donate.disabled:hover,
+.btn-donate[disabled]:hover,
+fieldset[disabled] .btn-donate:hover,
+.btn-donate.disabled:focus,
+.btn-donate[disabled]:focus,
+fieldset[disabled] .btn-donate:focus,
+.btn-donate.disabled:active,
+.btn-donate[disabled]:active,
+fieldset[disabled] .btn-donate:active,
+.btn-donate.disabled.active,
+.btn-donate[disabled].active,
+fieldset[disabled] .btn-donate.active {
+  background-color: #592A8A;
+  border-color: #130269;
+}
+
+.btn-donate .badge {
+  color: #592A8A;
+  background-color: #FEC923;
 }
 
 }
+*/
