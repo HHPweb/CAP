@@ -571,6 +571,9 @@ h4, h3 {
 
 /*===================================== Chuck Style =====================================*/
 
+.clr {
+  clear: both;
+}
 .cap_staff img:first-child {
   max-width: 150px;
   float: left;
@@ -593,7 +596,7 @@ h4, h3 {
 .ekg_head {
   background: url("http://www.ecu.edu/cs-hhp/biofeedback/customcf/images/ekg.png") bottom left no-repeat;
   padding-bottom: 5px;
-  font-size: 1.143em;
+  font-size: 1.5em;
 }
 
 a {
